@@ -107,6 +107,7 @@ img {
 
 .grid {
   display: grid;
+  height: 100%;
 }
 
 .section {
