@@ -1,0 +1,163 @@
+/* ====== Home Section ======  */
+
+/* Home github button  */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 35px;
+  gap: 15px;
+  background-color: #181717;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+a {
+  /* width: 10px; */
+  display: inline-block;
+}
+
+.github_box {
+  text-align: center;
+}
+
+.button .text {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.button svg path {
+  transition: 400ms;
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+.button:hover .text {
+  color: #181717;
+}
+
+.button:hover svg path {
+  fill: #181717;
+}
+
+/* -----  */
+
+.home__container {
+  padding-top: 1.4rem;
+}
+
+.home__name {
+  font-size: var(--biggest-font-size);
+  text-align: center;
+}
+
+.home__perfil {
+  position: relative;
+  justify-self: center;
+}
+
+.home__image {
+  width: 225px;
+}
+
+.home__img {
+  position: relative;
+  z-index: 10;
+}
+
+.home__shadow {
+  width: 100%;
+  height: 100%;
+  background-color: var(--container-color);
+  position: absolute;
+  bottom: -0.75rem;
+  right: -0.75rem;
+  border: 4px solid var(--black-color);
+  /* z-index: 5; */
+  transition: background-color 0.4s;
+}
+
+.home__arrow,
+.home__line {
+  position: absolute;
+  filter: invert(1);
+  width: 50px;
+  transition: filter 0.4s;
+}
+
+.display_hidden {
+  display: none;
+}
+
+.home__arrow {
+  left: 35%;
+  bottom: -3.2rem;
+}
+
+.home__line {
+  right: -1.2rem;
+  bottom: -0.5rem;
+}
+
+.home__perfil {
+  top: 1.8rem;
+  /* z-index: 10; */
+}
+
+.geometric-box {
+  left: -2rem;
+  z-index: 10;
+}
+
+.home__info {
+  margin-top: 5.8rem;
+}
+
+.home__description {
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 1.4rem;
+}
+
+.home__description b {
+  background: linear-gradient(
+    90deg,
+    hsla(14, 98%, 50%, 0.3),
+    hsla(14, 98%, 50%, 0)
+  );
+}
+
+/* Button  */
+.about__button,
+.button__ghost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.contact_button {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  outline: 3px var(--black-color) solid;
+  padding: 10px 35px;
+  transition: background-color 0.4s;
+}
+
+.contact_button:hover {
+  background-color: transparent;
+  color: var(--black-color);
+}
+
+.button__ghost {
+  font-size: 1.4rem;
+  color: var(--black-color);
+}

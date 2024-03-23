@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siam Abdullah | Front-end Developer</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="Style Folder/global.css" />
+    <link rel="stylesheet" href="Style Folder/header & footer.css" />
+    <link rel="stylesheet" href="Style Folder/home.css" />
+    <link rel="stylesheet" href="Style Folder/about.css" />
+    <link rel="stylesheet" href="Style Folder/contact.css" />
+    <link rel="stylesheet" href="Style Folder/responsive.css" />
+    <!-- CDNJS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- BoxIcons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- RemixIcons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">S</span>
+          <span class="nav__logo-name">Siam Abdullah.</span>
+        </a>
+
+        <div class="nav__menu show-menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+
+          <h3 class="nav__name">Siam.</h3>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link nav__link-button"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <!-- Close button  -->
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Toggle button  -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main  -->
+    <main class="main">
+      <!-- Home  -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Siam Abdullah</h1>
+
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                src="Images/home-perfil (2).jpg"
+                alt="Siam Abdullah"
+                class="home__img"
+              />
+              <div class="home__shadow">
+                <img
+                  src="Images/curved-arrow.svg"
+                  alt="Image"
+                  class="home__arrow"
+                />
+                <img
+                  src="Images/random-lines.svg"
+                  alt="Image"
+                  class="home__line"
+                />
+                <div class="geometric-box"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="home__info">
+            <p class="home__description">
+              <b>Front-End Developer</b> with expertise in web development and
+              design. I create user-friendly and visually appealing interfaces.
+              I'm passionate about solving problems and using my skills to craft
+              meaningful user experiences.
+            </p>
+          </div>
+          <div class="github_box">
+            <a
+              href="https://github.com/mrsiamabdullah"
+              class="home__scroll"
+              target="_blank"
+            >
+              <button class="button">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z"
+                    fill="white"
+                  ></path>
+                </svg>
+                <p class="text">GitHub</p>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Global Footer  -->
+    <footer>
+      <div class="flex_footer container section">
+        <div class="footer_content">
+          <div class="copyright">
+            <i class="bx bx-copyright"></i>
+            <p>SIAMABDULLAH</p>
+          </div>
+          <div class="footer_social_icon">
+            <a href="https://www.facebook.com/mrsiamabdullah" target="_blank"
+              ><i class="ri-facebook-circle-fill"></i
+            ></a>
+            <a href="https://www.instagram.com/mrsiamabdullah/" target="_blank"
+              ><i class="ri-instagram-line"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mrsiamabdullah/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/mrsiamabdullah" target="_blank"
+              ><i class="ri-github-fill"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
